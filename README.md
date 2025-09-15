@@ -1,0 +1,2 @@
+# Mass-transcription-of-whatsapp-audio-files-using-whisper-and-paralelism
+This is a quick code in Python which uses the openAI whisper model to transcribe almost  7000 audio files from a Company to plain text, for purposes of assesing the client service quality. The script was optimized to utilize threading in the CPU for reading the files  and 2 workers in the GPU. Managing to transcribe all files in 12  hours 
